@@ -23,7 +23,7 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		73A9301B7964099D17F6148B /* Pods_NWNKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BB79306298FF15C4901E562 /* Pods_NWNKit_Tests.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		E39C0606218C38CE0041B3BF /* test.xib in Resources */ = {isa = PBXBuildFile; fileRef = E39C0605218C38CE0041B3BF /* test.xib */; };
+		E39C0608218C43720041B3BF /* haha.xib in Resources */ = {isa = PBXBuildFile; fileRef = E39C0607218C43720041B3BF /* haha.xib */; };
 		EC6110F2BF5D8CDEC44BA42F /* Pods_NWNKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13DB6B3FDBE663562D94D479 /* Pods_NWNKit_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -68,7 +68,7 @@
 		8BB79306298FF15C4901E562 /* Pods_NWNKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NWNKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFF240AEFE95D3325D7AA4C1 /* NWNKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = NWNKit.podspec; path = ../NWNKit.podspec; sourceTree = "<group>"; };
 		D0EC7539A180F49B242E0C06 /* Pods-NWNKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NWNKit_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NWNKit_Example/Pods-NWNKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		E39C0605218C38CE0041B3BF /* test.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = test.xib; sourceTree = "<group>"; };
+		E39C0607218C43720041B3BF /* haha.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = haha.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +100,7 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				E39C0607218C43720041B3BF /* haha.xib */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for NWNKit */,
 				6003F5B5195388D20070C39A /* Tests */,
@@ -142,7 +143,6 @@
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
-				E39C0605218C38CE0041B3BF /* test.xib */,
 			);
 			name = "Example for NWNKit";
 			path = NWNKit;
@@ -282,7 +282,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E39C0606218C38CE0041B3BF /* test.xib in Resources */,
+				E39C0608218C43720041B3BF /* haha.xib in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
@@ -492,7 +492,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -525,7 +525,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -540,6 +540,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NWNKit/NWNKit-Prefix.pch";
 				INFOPLIST_FILE = "NWNKit/NWNKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -555,6 +556,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NWNKit/NWNKit-Prefix.pch";
 				INFOPLIST_FILE = "NWNKit/NWNKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
