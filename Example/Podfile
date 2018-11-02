@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'NWNKit_Example' do
+  pod 'NWNKit', :path => '../'
+
+  target 'NWNKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
