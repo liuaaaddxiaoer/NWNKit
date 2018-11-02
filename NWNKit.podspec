@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'NWNKit'
-  s.version          = '0.1.0'
+  s.version          = '0.0.1'
   s.summary          = 'A short description of NWNKit.'
 
 # This description is used to generate tags and improve search results.
@@ -30,11 +30,11 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'NWNKit/Classes/**/*'
+  s.source_files = 'NWNKit/Classes/**/*.{h,m,mm,swift}'
   
-  # s.resource_bundles = {
-  #   'NWNKit' => ['NWNKit/Assets/*.png']
-  # }
+  s.resource_bundles = {
+      'NWNKit' => ['NWNKit/Assets/*.{png,jpg,storyboard,xib,bundle}']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

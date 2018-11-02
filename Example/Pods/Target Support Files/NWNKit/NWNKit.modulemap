@@ -1,0 +1,6 @@
+framework module NWNKit {
+  umbrella header "NWNKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
